@@ -1,6 +1,6 @@
 ---
 title: "AS2-2: 股市動態"
-author: "第 0 組"
+author: "第 2 組"
 date: "`r Sys.time()`"
 output:
   html_document:
@@ -214,5 +214,4 @@ The Magic of the `apply()` Series：<br>
 </p class="wwl">
 <br><br><br>
 
-ㄏㄏㄏ
-
+88888我成功了

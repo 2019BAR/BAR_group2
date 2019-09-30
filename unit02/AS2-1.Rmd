@@ -1,6 +1,6 @@
 ---
 title: "AS2-1: 數位偵探"
-author: "第 0 組"
+author: "第 2 組"
 date: "`r Sys.time()`"
 output: 
   html_document:
@@ -228,6 +228,8 @@ a[D$Location == "DRIVEWAY - RESIDENTIAL"] %>%
   format('%w') %>% table %>% sort
 #QQQQ
 ```
+
+foleeeeeee
 
 
 
