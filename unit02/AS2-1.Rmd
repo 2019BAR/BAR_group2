@@ -226,10 +226,9 @@ a[D$Location == "GAS STATION"] %>% format('%w') %>% table %>% sort
 ```{r}
 a[D$Location == "DRIVEWAY - RESIDENTIAL"] %>% 
   format('%w') %>% table %>% sort
-#QQQQ
+
 ```
 
-foleeeeeee
 
 
 
