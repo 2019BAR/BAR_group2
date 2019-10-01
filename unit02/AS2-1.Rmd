@@ -1,6 +1,6 @@
 ---
 title: "AS2-1: 數位偵探"
-author: "第 0 組"
+author: "第 2 組"
 date: "`r Sys.time()`"
 output: 
   html_document:
@@ -111,7 +111,7 @@ head(D$Date)
 ```{r}
 a = as.POSIXct(D$Date, format="%m/%d/%y %H:%M")
 par(cex=0.7)
-hist(ts,"year",las=2,freq=T,xlab="")
+hist(a,"year",las=2,freq=T,xlab="")
 #
 ```
 
