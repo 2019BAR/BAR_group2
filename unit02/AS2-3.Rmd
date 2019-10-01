@@ -238,8 +238,8 @@ tapply(CPS$Education=='No high school diploma', CPS$MetroArea, mean, na.rm=TRUE)
 
 __§ 4.1__ What is the name of the variable added to the CPS data frame by this merge operation?
 ```{r}
-#CountryMap: Code, Country 
-#MetroAreaMap Code, MetroArea
+# CountryMap: Code, Country 
+# MetroAreaMap Code, MetroArea
 ```
 
 How many interviewees have a missing value for the new `Country` variable?
