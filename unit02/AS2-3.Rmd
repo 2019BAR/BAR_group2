@@ -53,8 +53,7 @@ nrow(CPS) #number of dataset
 __§ 1.2__ Among the interviewees with a value reported for the Industry variable, what is the most common industry of employment? Please enter the name exactly how you see it.
 ```{r}
 table(CPS$Industry) %>% sort
-#The most common industry of employment is
-#Educational and health services.
+#The most common industry of employment is Educational and health services.
 ```
 
 __§ 1.3__ Which state has the fewest interviewees?
@@ -126,8 +125,8 @@ __§ 2.2__  Which is the most accurate:
 + The Married variable being missing is not related to the Region, Sex, Age, or Citizenship value for the interviewee.
 
 ```{r}
-#Question： 'Married'這一個欄位的缺項(NA)，和'Region','Sex','Age','Citizenship'之中
-#            哪一個欄位的相關性最高?
+#Q： 'Married'這一個欄位的缺項(NA)，和'Region','Sex','Age','Citizenship'之中
+#     哪一個欄位的相關性最高?
 #NA：分成隨機性缺項和系統性缺項
 
 tapply(is.na(CPS$Married), CPS$Region, mean)
